@@ -7,6 +7,5 @@ export default async function handler(request, response) {
   } catch (error) {
     return response.status(500).json({ error });
   }
- 
- 
 }
+
